@@ -28,7 +28,7 @@ export default function Quotes({ quote }: { quote: any }) {
   return (
     <>
       {currentQuote === null ? (
-        <>a</>
+        <></>
       ) : (
         <motion.div
           className="p-8"
