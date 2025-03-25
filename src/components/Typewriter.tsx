@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const sentenceVariants = {
   hidden: {},
-  visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
+  visible: { opacity: 1, transition: { staggerChildren: 0.08 } },
 };
 
 const letterVariants = {
