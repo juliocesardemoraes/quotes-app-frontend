@@ -1,12 +1,71 @@
-# React + Vite
+# 🧠 Quotes App - Famous People
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application that displays inspiring quotes from famous people. Built using **React.js** for the frontend and **Node.js** with Express for the backend, this app allows users to browse, search, and get inspired by curated quotes from historical and modern public figures.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔍 Search quotes by author or keyword  
+- 🧑 View quotes by specific famous people  
+- ❤️ Like your favorite quotes  
+- 🔁 Get random quotes for daily inspiration  
+- 🧾 Clean and responsive UI with React  
+- ⚙️ RESTful API powered by Node.js and Express
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js (with Hooks & Context API)
+- Axios (for API requests)
+- Tailwind CSS / Styled Components (for styling)
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (or any database of your choice)
+- Mongoose (for MongoDB models)
+
+---
+
+## 📦 Installation
+
+```bash
+npm install
+npm start
+```
+
+---
+
+## 📄 API Endpoints
+
+| Method | Endpoint        | Description                |
+|--------|------------------|----------------------------|
+| GET    | /quotes          | Get all quotes             |
+
+---
+
+## 📸 Screenshots
+
+> ![image](https://github.com/user-attachments/assets/5e88f9ea-79f3-4fe3-a453-5f40b1b45fa6)
+
+
+---
+
+## 💡 Future Enhancements
+
+- User authentication and saving favorites
+- Save to database
+- Admin dashboard for managing quotes  
+- Categorization by theme (e.g., motivation, humor, love)  
+- Social media sharing  
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by Júlio Moraes
+
+---
