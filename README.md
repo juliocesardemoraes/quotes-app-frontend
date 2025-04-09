@@ -6,9 +6,6 @@ A full-stack web application that displays inspiring quotes from famous people. 
 
 ## 🚀 Features
 
-- 🔍 Search quotes by author or keyword  
-- 🧑 View quotes by specific famous people  
-- ❤️ Like your favorite quotes  
 - 🔁 Get random quotes for daily inspiration  
 - 🧾 Clean and responsive UI with React  
 - ⚙️ RESTful API powered by Node.js and Express
